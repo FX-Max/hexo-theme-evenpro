@@ -23,6 +23,8 @@
         data-page-url="{{ page.permalink }}"
         data-page-title="{{ page.title }}"
       ></div>
+    {%- elif theme.valine.enable -%}
+      <div id="vcomments"></div>
     {%- endif -%}
   </div>
 {%- endif -%}
