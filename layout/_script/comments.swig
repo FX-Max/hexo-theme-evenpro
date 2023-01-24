@@ -5,4 +5,5 @@
   {%- include "_comments/gitalk.swig" -%}
   {%- include "_comments/utterances.swig" -%}
   {%- include "_comments/cusdis.swig" -%}
+  {%- include "_comments/valine.swig" -%}
 {%- endif -%}
