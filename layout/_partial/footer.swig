@@ -24,5 +24,11 @@
       <i class="iconfont icon-heart"></i>
     </span>
     <span class="author">{{ config.author }}</span>
+
+    {%- if theme.footer.ICP.enable -%}
+      <span class="division">|</span>
+      <a class="theme-link" href={{ theme.footer.ICP.url }}>{{ theme.footer.ICP.text }}</a>
+    {%- endif -%} 
+
   </span>
 </div>

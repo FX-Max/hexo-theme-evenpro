@@ -70,6 +70,15 @@ social:
   instagram:
 
 # ===========================================
+# Footer Settings
+# ===========================================
+footer:
+  ICP: # Chinese ICP License
+    enable: false
+    url: 
+    text: 
+
+# ===========================================
 # Third Party Services Settings
 # ===========================================
 
