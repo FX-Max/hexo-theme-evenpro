@@ -40,6 +40,9 @@
   {%- include "../_script/push.swig" -%}
 {%- endif -%}
 
+{#- busuanzi Counter -#}
+{%- include "../_script/busuanzi.swig"%}
+
 {#- LeanCloud Counter -#}
 {%- include "../_script/counter.swig"%}
 

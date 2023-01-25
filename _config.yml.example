@@ -82,6 +82,10 @@ footer:
 # Third Party Services Settings
 # ===========================================
 
+# busuanzi count for PV / UV in site
+busuanzi:
+  enable: false
+
 # LeanCloud
 leancloud:
   app_id:
